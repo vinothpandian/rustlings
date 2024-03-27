@@ -3,7 +3,6 @@
 // Here's a couple more easy Clippy fixes, so you can see its utility.
 // No hints.
 
-// I AM NOT DONE
 
 #[allow(unused_variables, unused_assignments)]
 fn main() {
@@ -15,7 +14,7 @@ fn main() {
     ];
     println!("My array! Here it is: {:?}", my_arr);
 
-    let my_empty_vec = vec![1, 2, 3, 4, 5].resize(0, 5);
+    let my_empty_vec = vec![1, 2, 3, 4, 5];
     println!("This Vec is empty, see? {:?}", my_empty_vec);
 
     let mut value_a = 45;
